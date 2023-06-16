@@ -3,20 +3,20 @@
 </script>
 
 <template>
-    <nav class="nav">
-        <p class="nav__p">home</p>
-    </nav>
+    <div class="Nav">
+        <p class="Nav__p">home</p>
+    </div>
 </template>
 
 
 <style scoped>
-    .nav {
+    .Nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px;
     }
-    nav__p {
+    .Nav__p {
         font-size: 20px;
         font-weight: bold;
     }
